@@ -1,8 +1,7 @@
 # Site settings
 title: SNOWDEPTH
 email: zhihaol@uio.com
-description: >
-For SNOWDEPTH Project Websites, providing documentation and blog post pages.
+description: For SNOWDEPTH Project Websites, providing documentation and blog post pages.
 lang: en-US
 
 baseurl: "" # the subpath of your site, e.g. /blog/
