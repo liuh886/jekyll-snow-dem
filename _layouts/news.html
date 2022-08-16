@@ -13,7 +13,7 @@ layout: default
                     {% for entry in sorted_news reversed limit:10 %}
                     <li><div>{{ entry.date | date: "%b %-d, %Y" }}</div><a href="{{ entry.url | prepend: site.baseurl }}" {% if page.title==entry.title %} class="active" {% endif %}>{{ entry.title }}</a></li>
                     {% endfor %}
-                    <li><a href="{{ "/allposts" | relative_url }}">All posts ...</a></li>
+                    <li><a href="{{ "/allnews" | relative_url }}">All news ...</a></li>
                 </ul>
             </div>
         </div>
