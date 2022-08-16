@@ -13,10 +13,10 @@ permalink: search.json
   {% endfor %}
 {% endfor %}
 
-  {% for post in site.posts %}
+  {% for entry in site.news %}
   {
-  "title": "{{ post.title | escape }}",
-  "url": "{{ post.url | relative_url }}"
+  "title": "{{ entry.title | escape }}",
+  "url": "{{ entry.url | relative_url }}"
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

@@ -1,17 +1,19 @@
 # Site settings
 title: SNOWDEPTH
 email: zhihaol@uio.com
-description: For SNOWDEPTH Project Websites, providing documentation and blog post pages.
+description: >
+For SNOWDEPTH Project Websites, providing documentation and blog post pages.
 lang: en-US
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://snowdepth.eu.org # the base hostname & protocol for your site
 git_address: https://github.com/liuh886/jekyll-snow-dem
-git_edit_address: https://github.com/liuh886/jekyll-snow-dem
+#git_edit_address: https://github.com/liuh886/jekyll-snow-dem
 
 # theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap
-bootwatch: paper # cerulean cosmo custom cyborg darkly flatly journal lumen readable sandstone simplex slate solar spacelab superhero united yeti
+#bootwatch: paper # cerulean cosmo custom cyborg darkly flatly journal lumen readable sandstone simplex slate solar spacelab superhero united yeti
+bootwatch: Flatly
 
 # Build settings
 markdown: kramdown
@@ -33,11 +35,11 @@ exclude:
 timezone: Europe/Oslo
 defaults:
 - scope:
-    path: _posts
-    type: posts
+    path: _news
+    type: news
   values:
-    layout: post
-    sectionid: blog
+    layout: news
+    sectionid: news
 
 - scope:
     path: _docs
@@ -53,5 +55,5 @@ collections:
     permalink: /:collection/:path/
     output: true
   posts:
-    permalink: /blog/:year/:month/:day/:title/
+    permalink: /news/:year/:month/:day/:title/
     output: true

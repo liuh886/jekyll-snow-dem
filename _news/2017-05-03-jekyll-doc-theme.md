@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: news
 title:  "Jekyll Doc Theme is published!"
 author: aksakalli
 ---
