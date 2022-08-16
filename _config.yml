@@ -4,7 +4,7 @@ email: zhihaol@uio.com
 description: For SNOWDEPTH Project Websites, providing documentation and blog post pages.
 lang: en-US
 
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: https://snowdepth.eu.org # the base hostname & protocol for your site
 git_address: https://github.com/liuh886/jekyll-snow-dem
 #git_edit_address: https://github.com/liuh886/jekyll-snow-dem

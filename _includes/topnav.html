@@ -14,9 +14,9 @@
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/home/" | relative_url }}">Documentation</a></li>
-                <li {% if page.sectionid=='project-background' %} class="active" {% endif %}><a href="{{ "/background-and-publications/"| relative_url  | prepend: site.baseurl }}">Project Background</a></li>
-                <li {% if page.sectionid=='news' %} class="active" {% endif %}><a href="{{ site.news.first.url | relative_url }}">News</a></li>
-                <li {% if page.sectionid=='about-us' %} class="active" {% endif %}><a href="{{ "/about-us/"| relative_url  | prepend: site.baseurl }}">About us</a></li>
+                <li {% if page.sectionid=='project-background' %} class="active" {% endif %}><a href="{{ "/background-and-publications/" | prepend: site.baseurl }}">Project Background</a></li>
+                <li {% if page.sectionid=='news' %} class="active" {% endif %}><a href="{{ site.news.first.url | prepend: site.baseurl}}">News</a></li>
+                <li {% if page.sectionid=='about-us' %} class="active" {% endif %}><a href="{{ "/about-us/" | prepend: site.baseurl }}">About us</a></li>
             </ul>
             <div class="navbar-right">
                 <form class="navbar-form navbar-left">
