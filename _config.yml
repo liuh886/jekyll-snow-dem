@@ -1,6 +1,5 @@
 # Site settings
 title: SNOWDEPTH
-email: zhihaol@uio.com
 description: For SNOWDEPTH Project Websites, providing documentation and blog post pages.
 lang: en-US
 
@@ -53,6 +52,6 @@ collections:
   docs:
     permalink: /:collection/:path/
     output: true
-  posts:
+  news:
     permalink: /news/:year/:month/:day/:title/
     output: true
