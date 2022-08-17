@@ -1,6 +1,6 @@
 # Site settings
 title: SNOWDEPTH
-description: For SNOWDEPTH Project Websites, providing documentation and blog post pages.
+description: Global snow depths from spaceborne remote sensing for permafrost, high-elevation precipitation, and climate reanalyses.
 lang: en-US
 
 baseurl: "/" # the subpath of your site, e.g. /blog/
