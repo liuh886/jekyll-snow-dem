@@ -10,6 +10,8 @@ You can find further background information and details about our projects in th
 
 
 
+
+
 ## Snow Depth - Related Links
 
 ***Snow depth remote sensing: We don't know much about how much snow we have, particularly in mountain areas***:
@@ -18,14 +20,14 @@ You can find further background information and details about our projects in th
 - Passive microwave observations has coarse (~25km) footprints and lack of mountains.
 - Airborne Lidar system is accurate but local interest.
 
-ICESat's elevations are first compared to the DEM elevations to retrieve snow depth by Désirée Treichler. She found that the main source of uncertainty lies with ICESat's large footprints and the terrain variation therein within the reference DEM: spatially varying , systematic vertical bias severely hamper accurate estimation. Now what if there is new ICESat-2 and high quality DEM nowadays?
+**ICESat**'s elevations are first compared to the DEM elevations to retrieve snow depth by Désirée Treichler. She found that the main source of uncertainty lies with ICESat's large footprints and the terrain variation therein within the reference DEM: spatially varying , systematic vertical bias severely hamper accurate estimation. Now what if there is new ICESat-2 and high quality DEM nowadays?
 
  * Treichler, D., & Kääb, A. (2017). **Snow depth from ICESat laser altimetry—A test study in southern Norway**. *Remote Sensing of Environment*, *191*, 389–401. https://doi.org/10.1016/j.rse.2017.01.022
 
 - Shu, S., Liu, H., Frappart, F., Huang, Y., Wang, S., Hinkel, K. M., Beck, R. A., Yu, B., Jones, B. M., Arp, C. D., Wang, L., & Ye, Z. (2018). **Estimation of snow accumulation over frozen Arctic lakes using repeat ICESat laser altimetry observations – A case study in northern Alaska**. *Remote Sensing of Environment*, *216*, 529–543. https://doi.org/10.1016/j.rse.2018.07.018
   - For the regions with abundant frozen lakes, using repeat ICESat altimetry observations can derive snow accumulation information with r of 0.88 and RMSE of 5 cm.
 
-Microwave radar in C-band (Sentinel-1) is a ideal solution for snow depth: 6 days revisit period, 2-satellites with long-term continuity, 5 m x 20 m resolution. A team from Leuven University has done extensive work.
+**Microwave radar in C-band (Sentinel-1)** is a ideal solution for snow depth: 6 days revisit period, 2-satellites with long-term continuity, 5 m x 20 m resolution. A team from Leuven University has done extensive work.
 
  * Lievens, H., Demuzere, M., Marshall, H.-P., Reichle, R. H., Brucker, L., Brangers, I., de Rosnay, P., Dumont, M., Girotto, M., Immerzeel, W. W., Jonas, T., Kim, E. J., Koch, I., Marty, C., Saloranta, T., Schöber, J., & De Lannoy, G. J. M. (2019). **Snow depth variability in the Northern Hemisphere mountains observed from space**. *Nature Communications*, *10*(1), 4629. https://doi.org/10.1038/s41467-019-12566-y
      * by cross-polarized backscatter algorithm , C-SNOW retrieves snow depth in mountainous areas with the large scale (1 km). Sentinel-1 reveals the spatial detail and the elevation profile of snow depth by resembling with reanalysis data.
@@ -36,16 +38,18 @@ Snow in reanalysis provides critical surface information for forecast system fro
      * Global reanalysis products (ECMWF-EAR5, JRA-55, MERRA-2) are systematically compared with in situ snow depth and satellite snow cover dataset. The results suggest a common model precipitation bias over the Himalayas and the TP, and excessive snowfall might be the primary factor for the large overestimation of snow depth and cover in ERA5 reanalysis.
 
 
-## ICESat - Related Links
+## ICESat-2 - Related Links
 
-There are massive [publications of ICESat-2](https://icesat-2.gsfc.nasa.gov/publications) for excellent performance.
+There are massive [publications of ICESat-2](https://icesat-2.gsfc.nasa.gov/publications) for excellent performance. The snow depth over the Antarctic ice sheet and the Arctic sea ice could be retrieved by ICESat-2 lidar multiple scattering measurements.
+
+- Hu, Y., Lu, X., Zeng, X., Stamnes, S. A., Neuman, T. A., Kurtz, N. T., Zhai, P., Gao, M., Sun, W., Xu, K., Liu, Z., Omar, A. H., Baize, R. R., Rogers, L. J., Mitchell, B. O., Stamnes, K., Huang, Y., Chen, N., Weimer, C., … Fair, Z. (2022). **Deriving Snow Depth From ICESat-2 Lidar Multiple Scattering Measurements**. *Frontiers in Remote Sensing*, *3*, 855159. https://doi.org/10.3389/frsen.2022.855159
 
 ## DEM Co-registration & uncertainty - Related Links
 
 The shift between repeat DEMs might have systematic difference, in particular if the originate from different sensors or orientation procedures.  Kääb (2005) and Nuth (2011) has an iterative approach by solving a cosine equation to co-registrate DEMs efficiently, which is a key to address DEM uncertainties and snow depth in this case.
 
- * Kääb, A. (2005). *Remote sensing of mountain glaciers and permafrost creep*. Geographisches Institut der Universität Zürich. page 67
- * Nuth, C., & Kääb, A. (2011). Co-registration and bias corrections of satellite elevation data sets for quantifying glacier thickness change. *The Cryosphere*, *5*(1), 271–290. https://doi.org/10.5194/tc-5-271-2011
+ * Kääb, A. (2005). ***Remote sensing of mountain glaciers and permafrost creep***. Geographisches Institut der Universität Zürich. page 67
+ * Nuth, C., & Kääb, A. (2011). **Co-registration and bias corrections of satellite elevation data sets for quantifying glacier thickness change**. *The Cryosphere*, *5*(1), 271–290. https://doi.org/10.5194/tc-5-271-2011
  * Hugonnet, R., Brun, F., Berthier, E., Dehecq, A., Mannerfelt, E. S., Eckert, N., & Farinotti, D. (2022). ***Uncertainty analysis of digital elevation models by spatial inference from stable terrain*.** 17. Submitted to IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING.
 
 ## Climate - Related Links
