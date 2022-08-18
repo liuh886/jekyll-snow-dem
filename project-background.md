@@ -32,7 +32,7 @@ Accurate estimates of snow water equivalent (SWE), snow covered area (SCA), melt
 
 ICESat-2 has made a great success in the polar area. The height of snow top over the sea ice can be retrieved by ICESat-2. The actual snow depth then equals to the top height minus the bare height of sea ice from radar measurements of CryoSat-2.
 
-- Kwok, R., Kacimi, S., Webster, M. A., Kurtz, N. T., & Petty, A. A. (2020). Arctic Snow Depth and Sea Ice Thickness From ICESat‐2 and CryoSat‐2 Freeboards: A First Examination. *Journal of Geophysical Research: Oceans*, *125*(3). https://doi.org/10.1029/2019JC016008
+- Kwok, R., Kacimi, S., Webster, M. A., Kurtz, N. T., & Petty, A. A. (2020). **Arctic Snow Depth and Sea Ice Thickness From ICESat‐2 and CryoSat‐2 Freeboards: A First Examination**. *Journal of Geophysical Research: Oceans*, *125*(3). https://doi.org/10.1029/2019JC016008
 
 This paper retrieved the snow depth over the Antarctic ice sheet and the Arctic sea ice by ICESat-2 lidar multiple scattering measurements.
 
